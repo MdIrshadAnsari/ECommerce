@@ -2,7 +2,7 @@ import React from "react";
 
 export const Hero = () => {
   return (
-    <div className="w-full flex justify-around items-center border-1">
+    <div className="w-full flex justify-around items-center border-1 border-zinc-400">
       <div className="left-div w-[50%] flex flex-col items-center justify-center">
         <div className="">
           <div className="flex items-center gap-2">

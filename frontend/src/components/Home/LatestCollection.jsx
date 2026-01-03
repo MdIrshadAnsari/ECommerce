@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import ProductCard from '../ProductCard/ProductCard'
+import { ShopContext } from '../../context/ShopContext'
 
 const LatestCollection = () => {
+  const{products} = useContext(ShopContext)
+  console.log(products)
   return (
     <div>
         <div className='flex flex-col items-center justify-center mt-20'>
